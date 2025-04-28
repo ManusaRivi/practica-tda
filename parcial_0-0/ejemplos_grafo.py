@@ -12,6 +12,15 @@ Grafo ciclico de 4 vertices.
 1 -> 2 -> 3 -> 4 - > 1
 """
 
+grafo0 = Grafo()
+
+grafo0.agregar_vertice(1)
+grafo0.agregar_vertice(2)
+grafo0.agregar_vertice(3)
+
+grafo0.agregar_arista(1, 2)
+grafo0.agregar_arista(1, 3)
+
 grafo1 = Grafo()
 
 grafo1.agregar_vertice(1)
